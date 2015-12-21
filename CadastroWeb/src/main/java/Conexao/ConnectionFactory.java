@@ -23,7 +23,7 @@ public class ConnectionFactory {
 
     public ConnectionFactory() {
         this.url = "jdbc:postgresql://localhost:5432/CadastroWeb";
-        this.password = "123";
+        this.password = "123456";
         this.user = "postgres";
         this.driver = "org.postgresql.Driver";
     }
